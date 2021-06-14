@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sportflix</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="min-h-screen bg-black py-3 flex flex-col justify-center">
+			<div class="relative">
+			<div class="grid grid-cols-1 justify-center">
+				<div class="relative mx-3 my-3 justify-self-center bg-black shadow-lg sm:p-0">
+					<h1>
+						<img src="logo.png">
+					</h1>
+				</div>
+			</div>
+			<div class="grid grid-cols-1 justify-center border-b-2 border-double border-indigo-300 py-3 main-frame">
+				<div class="relative mx-3 bg-black shadow-lg sm:p-0 justify-self-center">
+					<div class="text-black mb-10 bg-indigo-300">
+						<iframe class="main-video-iframe" width="1280" height="720" src="" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="py-3">
+							<p class="text-xl text-center main-video-title"></p>
+							<p class="text-center main-video-subtitle"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid grid-cols-1">
+			<div class="relative flex-1 mx-3 my-2 shadow-lg sm:p-0">
+				<h2 class="text-sm font-thin text-center text-white">Desenvolvido por Eduardo Schenato dos Santos &copy; 2021</h2>
+			</div>
+		</div>
+        <script src="https://apis.google.com/js/api.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
