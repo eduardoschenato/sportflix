@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteRule ^home index.html
+    RewriteRule ^404 404.html
+    RewriteRule ^canal/([a-zA-Z0-9-]{1,25})?$ channel.html?id=$1
+
+    ErrorDocument 404 https://sportflix.eduardoschenato.com.br/404
+
+</IfModule>
