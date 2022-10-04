@@ -1,17 +1,21 @@
-async function getVideosApi(channel, nextPageToken) {
+async function getVideosApi(playlistId, playlistIdIndex, reverse, nextPageToken) {
     let props = {};
+    
+    if(!Array.isArray(playlistId)) {
+        playlistId = [playlistId];
+    }
     
     if(nextPageToken === undefined) {
         props = {
             "part": ["snippet"],
             "maxResults": maxResults,
-            "playlistId": channel.playlistId
+            "playlistId": playlistId[playlistIdIndex]
         };
     } else {
         props = {
             "part": ["snippet"],
             "maxResults": maxResults,
-            "playlistId": channel.playlistId,
+            "playlistId": playlistId[playlistIdIndex],
             "pageToken": nextPageToken
         };
     }
@@ -20,8 +24,12 @@ async function getVideosApi(channel, nextPageToken) {
     
     let videos = processVideosApi(response.result.items);
 
-    if(channel.reverseOrder && response.result.nextPageToken) {
-        videos = videos.concat(await getVideosApi(channel, response.result.nextPageToken));
+    if(reverse && response.result.nextPageToken) {
+        videos = videos.concat(await getVideosApi(playlistId, reverse, response.result.nextPageToken));
+    }
+
+    if(reverse && !response.result.nextPageToken && (playlistId.length - 1 > playlistIdIndex)) {
+        videos = videos.concat(await getVideosApi(playlistId, (playlistIdIndex + 1), reverse, response.result.nextPageToken));
     }
 
     return videos;
@@ -112,7 +120,12 @@ function createTitleContainerDiv(channel, showBack) {
     let link = document.createElement('a');
     link.className = "float-right bg-black text-white border-2 border-white border-solid px-3 py-1 transition duration-500 ease-in-out transform hover:bg-indigo-300 hover:border-indigo-300 hover:text-black";
     link.innerHTML = "Ver mais";
-    link.href = "canal/" + channel.link;
+    
+    if(showBack) {
+        link.href = channel.url;
+    } else {
+        link.href = "canal/" + channel.link;
+    }
 
     let titleDiv = document.createElement('div');
     titleDiv.className = "relative flex-1 mx-3 my-2 shadow-lg sm:p-0";

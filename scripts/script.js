@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", event => {
             gapi.client.load("https://content.googleapis.com/discovery/v1/apis/youtube/v3/rest").then(
                 async () => { 
                     await channels.forEach(async (channel, channelIndex) => {
-                        let videos = await getVideosApi(channel, undefined);
+                        let videos = await getVideosApi(channel.playlistId, 0, channel.reverseOrder, undefined);
                         channel.videos = channel.videos.concat(videos);
 
                         let titleContainerDiv = createTitleContainerDiv(channel, false);

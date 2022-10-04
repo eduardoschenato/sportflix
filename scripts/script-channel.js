@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", event => {
                         window.location.href = "404";
                     }
 
-                    let videos = await getVideosApi(channel, undefined);
+                    let videos = await getVideosApi(channel.playlistId, 0, channel.reverseOrder, undefined);
                     channel.videos = channel.videos.concat(videos);
 
                     let titleContainerDiv = createTitleContainerDiv(channel, true);
