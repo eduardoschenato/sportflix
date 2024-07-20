@@ -25,7 +25,7 @@ async function getVideosApi(playlistId, playlistIdIndex, reverse, nextPageToken)
     let videos = processVideosApi(response.result.items);
 
     if(reverse && response.result.nextPageToken) {
-        videos = videos.concat(await getVideosApi(playlistId, reverse, response.result.nextPageToken));
+        videos = videos.concat(await getVideosApi(playlistId, 0, reverse, response.result.nextPageToken));
     }
 
     if(reverse && !response.result.nextPageToken && (playlistId.length - 1 > playlistIdIndex)) {
