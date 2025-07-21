@@ -35,7 +35,7 @@ var channels = [
         name: "MLB",
         link: "mlb",
         url: "https://www.youtube.com/user/MLB",
-        playlistId: "PLL-lmlkrmJamr_QNPS_M8yWiDako963UM",
+        playlistId: "PLL-lmlkrmJanq-c41voXY4cCbxVR0bjxR",
         videos: [],
         reverseOrder: false
     },
@@ -66,8 +66,8 @@ var channels = [
     /*{ 
         name: "NHL",
         link: "nhl",
-        url: "https://www.youtube.com/c/NHL",
-        playlistId: "PL1NbHSfosBuG_HB8WTgFaCVsDWCcnOsUW",
+        url: "https://www.youtube.com/@NHL",
+        playlistId: "PL1NbHSfosBuGw6i-R_Bqqs8_7rusmH8qU",
         videos: [],
         reverseOrder: false
     },*/
@@ -93,15 +93,15 @@ var channels = [
         name: "CFL",
         link: "cfl",
         url: "https://www.youtube.com/c/cfl",
-        playlistId: "PLF0iJOEIomJ6tBIEz4f-GzEx49u61Bln_",
+        playlistId: "PLF0iJOEIomJ7pltjQwImqouOcfy2mrlvf",
         videos: [],
         reverseOrder: false
     },
     /*{ 
         name: "NBA G-League",
         link: "nba-g-league",
-        url: "https://www.youtube.com/c/nbagleague",
-        playlistId: "PLRF0Qy76Eqm5Gbe4PMWMlb6alZbczf1P3",
+        url: "https://www.youtube.com/@nbagleague",
+        playlistId: "PLRF0Qy76Eqm47gE334VIpIeGH1zLDN19A",
         videos: [],
         reverseOrder: false
     },*/
@@ -109,17 +109,16 @@ var channels = [
         name: "WNBA",
         link: "wnba",
         url: "https://www.youtube.com/user/WNBA",
-        playlistId: "PLSPy3Xok-53Qm1aAOE53Oqg6BfGS6afon",
+        playlistId: "PLSPy3Xok-53SwFTmgu2kKIxpIfnaMVwt6",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },
     /*{ 
         name: "EuroLeague",
         link: "euroleague",
-        url: "https://www.youtube.com/c/euroleague",
+        url: "https://www.youtube.com/@euroleague",
         playlistId: [
-            "PLXcjy-GNBj1wJlg3zWvB8Sg84r4lx3GRc",
-            "PLXcjy-GNBj1w3iVz4YqTEiTv-CEqwKD7X"
+            "PLXcjy-GNBj1y4UH7No4QICRtzhf1kQLPS"
         ],
         videos: [],
         reverseOrder: true
@@ -152,15 +151,15 @@ var channels = [
         name: "LMB",
         link: "lmb",
         url: "https://www.youtube.com/c/LMBOficial",
-        playlistId: "PLRLm82cerwTePv8VVtXBQy2fRlrPButKr",
+        playlistId: "PLRLm82cerwTcKwwjH9c-Fg_RJjSKqFPb3",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },
     { 
         name: "KBO",
         link: "kbo",
         url: "https://www.youtube.com/@KBO1982",
-        playlistId: "PLuY-NTS_5IpzwH3FfskfFOrnui5O5NlkC",
+        playlistId: "PLuY-NTS_5IpxSLENcrLkC1_E7RuWldqXR",
         videos: [],
         reverseOrder: false
     },
@@ -176,25 +175,24 @@ var channels = [
         name: "Super 12",
         link: "super-12",
         url: "https://www.youtube.com/c/rugbybrasil",
-        playlistId: "PLW1ecmGi4AqZt749E7rp5YAHHuITZFww0",
+        playlistId: "PLW1ecmGi4AqbddZsoLzbx7StT7pK6-h0Y",
         videos: [],
         reverseOrder: false
     },
     /*{ 
         name: "Premiership Rugby",
         link: "premiership-rugby",
-        url: "https://www.youtube.com/user/PremiershipRugby",
-        playlistId: "PL10-iuZDt9bRei5dl0NSj7LUU-8eFMlIK",
+        url: "https://www.youtube.com/@PremiershipRugby",
+        playlistId: "PL10-iuZDt9bSNl8P6QzSzAd8fKZ_l7Udq",
         videos: [],
         reverseOrder: false
     },*/
     /*{ 
         name: "Top 14",
         link: "top-14",
-        url: "https://www.youtube.com/c/top14",
+        url: "https://www.youtube.com/@top14",
         playlistId: [
-            "PLrYk229EnmBo2XsKSHbFF-27PxB4gcC9T",
-            "PLrYk229EnmBpOxQrKuGiHVfbIIsOl8_oS"
+            "PLrYk229EnmBpKLrIjJP5F2TG6Er8O2PSE"
         ],
         videos: [],
         reverseOrder: true
@@ -202,7 +200,7 @@ var channels = [
     /*{ 
         name: "United Rugby Championship",
         link: "united-rugby-championship",
-        url: "https://www.youtube.com/c/UnitedRugbyChampionshipURC",
+        url: "https://www.youtube.com/@UnitedRugbyChampionship",
         playlistId: "PLclPnIJd8nRubxwQRcZxqHWTbjNFR1oVQ",
         videos: [],
         reverseOrder: true
@@ -226,10 +224,10 @@ var channels = [
     /*{ 
         name: "Super Rugby",
         link: "super-rugby",
-        url: "https://www.youtube.com/user/SanzarRugby",
-        playlistId: "PL3Ypd5NbZr_Gn850GZwjupg8Vq7Si2wCb",
+        url: "https://www.youtube.com/@SuperRugbyPacific",
+        playlistId: "PL3Ypd5NbZr_E7R0kQNol2KZQB93dHKfq6",
         videos: [],
-        reverseOrder: false
+        reverseOrder: true
     },*/
     /*{ 
         name: "Super Rugby Americas",
@@ -242,24 +240,24 @@ var channels = [
     /*{ 
         name: "Heineken Champions Cup",
         link: "heineken-champions-cup",
-        url: "https://www.youtube.com/ChampionsCup",
-        playlistId: "PLPvhV-spCrYg8vitgcW9tr4yHWYJf6fLG",
+        url: "https://www.youtube.com/@InvestecChampionsCup",
+        playlistId: "PLPvhV-spCrYgA33aFzfwx9yokn3ineJ0m",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },*/
     /*{ 
         name: "European Rugby Challenge Cup",
         link: "european-rugby-challenge-cup",
-        url: "https://www.youtube.com/ChampionsCup",
-        playlistId: "PLPvhV-spCrYhPQU9yzOdGxELxHxtR2Ug5",
+        url: "https://www.youtube.com/@InvestecChampionsCup",
+        playlistId: "PLPvhV-spCrYjnW-JUZMbGt2-TJKciPjzL",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },*/
     /*{ 
         name: "Six Nations",
         link: "six-nations",
         url: "https://www.youtube.com/@SixNationsRugby",
-        playlistId: "PLg20xIo2wglK9tq9X57dYYAi8q0haQXir",
+        playlistId: "PLg20xIo2wglJJj7ptpdYRr34WaMj2a90F",
         videos: [],
         reverseOrder: false
     },*/
@@ -267,7 +265,7 @@ var channels = [
         name: "Copa Libertadores",
         link: "copa-libertadores",
         url: "https://www.youtube.com/c/LibertadoresBR",
-        playlistId: "PLuwL8egE4Mmo5ABlA47V7CeVY6veLmi3t",
+        playlistId: "PLuwL8egE4Mmq_-a_OWCufZeOGMggNRJEs",
         videos: [],
         reverseOrder: false
     },
@@ -275,25 +273,33 @@ var channels = [
         name: "Copa Sul-Americana",
         link: "copa-sul-americana",
         url: "https://www.youtube.com/c/SudamericanaBR",
-        playlistId: "PLfxJE7oOWiUklswjTlXI3PUVw1eXSHhgT",
+        playlistId: "PLfxJE7oOWiUmrTbZGQItHWFi4UlJQvZ9M",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },
     /*{ 
-        name: "AFC Champions League",
-        link: "afc-champions-league",
-        url: "https://www.youtube.com/c/TheAFCHub",
-        playlistId: "PLPkuWEMcRg4H1wqauIre1dBtjlGa02QcN",
+        name: "AFC Champions League Elite",
+        link: "afc-champions-league-elite",
+        url: "https://www.youtube.com/@TheAFCHub",
+        playlistId: "PLPkuWEMcRg4HALFb9MrT3B-hFdi7ug895",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },*/
     /*{ 
-        name: "AFC Cup",
-        link: "afc-cup",
-        url: "https://www.youtube.com/c/TheAFCHub",
-        playlistId: "PLPkuWEMcRg4F20_CfexJ2vOQ6VfV3B1bh",
+        name: "AFC Champions League 2",
+        link: "afc-champions-league-2",
+        url: "https://www.youtube.com/@TheAFCHub",
+        playlistId: "PLPkuWEMcRg4HZ-0ogeD7kOMHbSPSrNWcn",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
+    },*/
+    /*{ 
+        name: "AFC Challenge League",
+        link: "afc-challenge-league",
+        url: "https://www.youtube.com/@TheAFCHub",
+        playlistId: "PLPkuWEMcRg4F2Kjdj9rJyxqGxeuLyFlvT",
+        videos: [],
+        reverseOrder: false
     },*/
     /*{ 
         name: "African Football League",
@@ -306,8 +312,8 @@ var channels = [
     /*{ 
         name: "CONCACAF Champions League",
         link: "concacaf-champions-league",
-        url: "https://www.youtube.com/c/concacaf",
-        playlistId: "PL6XTKrlgbQUCHY3cK61t5g-pFZLiY7ApT",
+        url: "https://www.youtube.com/concacaf",
+        playlistId: "PL6XTKrlgbQUA-Rd37X2Ksi2UaDOQ3TXzh",
         videos: [],
         reverseOrder: false
     },*/
@@ -315,18 +321,18 @@ var channels = [
         name: "CAF Champions League",
         link: "caf-champions-league",
         url: "https://www.youtube.com/c/CAFTVafricanfootball",
-        playlistId: "PL79m9Jm7_jmBoG6Zz1nj8tO8uXR8FBB7R",
+        playlistId: "PL79m9Jm7_jmBVG-6gJBhrf6eOObcUkf0S",
         videos: [],
-        reverseOrder: true
+        reverseOrder: false
     },*/
     /*{ 
         name: "CAF Confederations Cup",
         link: "caf-confederations-cup",
         url: "https://www.youtube.com/c/CAFTVafricanfootball",
-        playlistId: "PL79m9Jm7_jmDfSTbNR28HDvm6XlnboAXu",
+        playlistId: "PL79m9Jm7_jmDhsEcL2Oh26Hiopgx9mLe5",
         videos: [],
-        reverseOrder: true
-    }*/
+        reverseOrder: false
+    },*/
     /*{ 
         name: "Copa das Nações Africanas",
         link: "copa-nacoes-africanas",
