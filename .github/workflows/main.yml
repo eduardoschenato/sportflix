@@ -17,3 +17,5 @@ jobs:
           username: ${{ secrets.login }}
           password: ${{ secrets.password }}
           server-dir: /
+          exclude: |
+            scripts/variables.js
