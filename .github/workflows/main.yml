@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+name: Production deploy on push to master branch
+jobs:
+  web-deploy:
+    name: Production Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+      - name: Send files to server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.host }}
+          username: ${{ secrets.login }}
+          password: ${{ secrets.password }}
+          server-dir: /
